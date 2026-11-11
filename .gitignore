@@ -1,0 +1,30 @@
+# Temporary office files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Big Data raw & intermediate storage (keep light samples/schemas only)
+data/raw/
+data/interim/
+data/external/
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+spark-warehouse/
+derby.log
+metastore_db/
