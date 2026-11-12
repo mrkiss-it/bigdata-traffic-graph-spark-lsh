@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d14" for="edge" attr.name="maxspeed" attr.type="string"/>
+<key id="d13" for="edge" attr.name="oneway" attr.type="string"/>
+<key id="d12" for="edge" attr.name="length" attr.type="string"/>
+<key id="d11" for="edge" attr.name="lanes" attr.type="string"/>
+<key id="d10" for="edge" attr.name="highway" attr.type="string"/>
+<key id="d9" for="edge" attr.name="name" attr.type="string"/>
+<key id="d8" for="node" attr.name="dist_center_m" attr.type="string"/>
+<key id="d7" for="node" attr.name="roads" attr.type="string"/>
+<key id="d6" for="node" attr.name="node_code" attr.type="string"/>
+<key id="d5" for="node" attr.name="lon" attr.type="string"/>
+<key id="d4" for="node" attr.name="lat" attr.type="string"/>
+<key id="d3" for="node" attr.name="y" attr.type="string"/>
+<key id="d2" for="node" attr.name="x" attr.type="string"/>
+<key id="d1" for="graph" attr.name="name" attr.type="string"/>
+<key id="d0" for="graph" attr.name="crs" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">EPSG:4326</data>
+<data key="d1">Hang_Xanh_Key_Corridors</data>
+<node id="1">
+  <data key="d2">106.711366</data>
+  <data key="d3">10.801603</data>
+  <data key="d4">10.801603</data>
+  <data key="d5">106.711366</data>
+  <data key="d6">HX_01</data>
+  <data key="d7">Điện Biên Phủ | Bạch Đằng | Xô Viết Nghệ Tĩnh | Cầu Sơn / Xô Viết Nghệ Tĩnh</data>
+  <data key="d8">44.7</data>
+</node>
+<node id="2">
+  <data key="d2">106.7133</data>
+  <data key="d3">10.80138</data>
+  <data key="d4">10.80138</data>
+  <data key="d5">106.7133</data>
+  <data key="d6">HX_02</data>
+  <data key="d7">Cầu vượt Hàng Xanh | Điện Biên Phủ</data>
+  <data key="d8">208.8</data>
+</node>
+<node id="3">
+  <data key="d2">106.709259</data>
+  <data key="d3">10.801059</data>
+  <data key="d4">10.801059</data>
+  <data key="d5">106.709259</data>
+  <data key="d6">HX_03</data>
+  <data key="d7">Đinh Bộ Lĩnh | Điện Biên Phủ | Cầu vượt Hàng Xanh</data>
+  <data key="d8">234.7</data>
+</node>
+<node id="4">
+  <data key="d2">106.709374</data>
+  <data key="d3">10.802984</data>
+  <data key="d4">10.802984</data>
+  <data key="d5">106.709374</data>
+  <data key="d6">HX_04</data>
+  <data key="d7">Đinh Bộ Lĩnh / Cầu Đinh Bộ Lĩnh | Bạch Đằng | Đinh Bộ Lĩnh</data>
+  <data key="d8">296.7</data>
+</node>
+<node id="5">
+  <data key="d2">106.710895</data>
+  <data key="d3">10.797919</data>
+  <data key="d4">10.797919</data>
+  <data key="d5">106.710895</data>
+  <data key="d6">HX_05</data>
+  <data key="d7">Xô Viết Nghệ Tĩnh</data>
+  <data key="d8">367.1</data>
+</node>
+<node id="6">
+  <data key="d2">106.708427</data>
+  <data key="d3">10.803061</data>
+  <data key="d4">10.803061</data>
+  <data key="d5">106.708427</data>
+  <data key="d6">HX_06</data>
+  <data key="d7">Bạch Đằng</data>
+  <data key="d8">384.8</data>
+</node>
+<node id="7">
+  <data key="d2">106.715132</data>
+  <data key="d3">10.801015</data>
+  <data key="d4">10.801015</data>
+  <data key="d5">106.715132</data>
+  <data key="d6">HX_07</data>
+  <data key="d7">Nguyễn Gia Trí | Điện Biên Phủ</data>
+  <data key="d8">408.7</data>
+</node>
+<node id="8">
+  <data key="d2">106.71568</data>
+  <data key="d3">10.800665</data>
+  <data key="d4">10.800665</data>
+  <data key="d5">106.71568</data>
+  <data key="d6">HX_08</data>
+  <data key="d7">Điện Biên Phủ | Điện Biên Phủ / Cầu Văn Thánh 1</data>
+  <data key="d8">471.8</data>
+</node>
+<node id="9">
+  <data key="d2">106.716685</data>
+  <data key="d3">10.800225</data>
+  <data key="d4">10.800225</data>
+  <data key="d5">106.716685</data>
+  <data key="d6">HX_09</data>
+  <data key="d7">Điện Biên Phủ | Điện Biên Phủ / Cầu Văn Thánh 1</data>
+  <data key="d8">588.0</data>
+</node>
+<node id="10">
+  <data key="d2">106.715886</data>
+  <data key="d3">10.804326</data>
+  <data key="d4">10.804326</data>
+  <data key="d5">106.715886</data>
+  <data key="d6">HX_10</data>
+  <data key="d7">Nguyễn Gia Trí</data>
+  <data key="d8">600.2</data>
+</node>
+<node id="11">
+  <data key="d2">106.711564</data>
+  <data key="d3">10.806824</data>
+  <data key="d4">10.806824</data>
+  <data key="d5">106.711564</data>
+  <data key="d6">HX_11</data>
+  <data key="d7">Cầu Sơn / Xô Viết Nghệ Tĩnh | Xô Viết Nghệ Tĩnh</data>
+  <data key="d8">622.4</data>
+</node>
+<node id="12">
+  <data key="d2">106.709931</data>
+  <data key="d3">10.795451</data>
+  <data key="d4">10.795451</data>
+  <data key="d5">106.709931</data>
+  <data key="d6">HX_12</data>
+  <data key="d7">Xô Viết Nghệ Tĩnh</data>
+  <data key="d8">655.9</data>
+</node>
+<node id="13">
+  <data key="d2">106.704822</data>
+  <data key="d3">10.803327</data>
+  <data key="d4">10.803327</data>
+  <data key="d5">106.704822</data>
+  <data key="d6">HX_13</data>
+  <data key="d7">Bạch Đằng</data>
+  <data key="d8">756.9</data>
+</node>
+<node id="14">
+  <data key="d2">106.709284</data>
+  <data key="d3">10.808347</data>
+  <data key="d4">10.808347</data>
+  <data key="d5">106.709284</data>
+  <data key="d6">HX_14</data>
+  <data key="d7">Đinh Bộ Lĩnh / Cầu Đinh Bộ Lĩnh</data>
+  <data key="d8">823.8</data>
+</node>
+<node id="15">
+  <data key="d2">106.716359</data>
+  <data key="d3">10.807596</data>
+  <data key="d4">10.807596</data>
+  <data key="d5">106.716359</data>
+  <data key="d6">HX_15</data>
+  <data key="d7">Nguyễn Gia Trí | Ung Văn Khiêm</data>
+  <data key="d8">891.5</data>
+</node>
+<node id="16">
+  <data key="d2">106.704242</data>
+  <data key="d3">10.797312</data>
+  <data key="d4">10.797312</data>
+  <data key="d5">106.704242</data>
+  <data key="d6">HX_16</data>
+  <data key="d7">Điện Biên Phủ</data>
+  <data key="d8">893.1</data>
+</node>
+<node id="17">
+  <data key="d2">106.70802</data>
+  <data key="d3">10.793405</data>
+  <data key="d4">10.793405</data>
+  <data key="d5">106.70802</data>
+  <data key="d6">HX_17</data>
+  <data key="d7">Xô Viết Nghệ Tĩnh</data>
+  <data key="d8">938.2</data>
+</node>
+<node id="18">
+  <data key="d2">106.712401</data>
+  <data key="d3">10.809741</data>
+  <data key="d4">10.809741</data>
+  <data key="d5">106.712401</data>
+  <data key="d6">HX_18</data>
+  <data key="d7">Xô Viết Nghệ Tĩnh | Ung Văn Khiêm</data>
+  <data key="d8">951.1</data>
+</node>
+<node id="19">
+  <data key="d2">106.71977</data>
+  <data key="d3">10.798529</data>
+  <data key="d4">10.798529</data>
+  <data key="d5">106.71977</data>
+  <data key="d6">HX_19</data>
+  <data key="d7">Điện Biên Phủ</data>
+  <data key="d8">961.9</data>
+</node>
+<node id="20">
+  <data key="d2">106.706729</data>
+  <data key="d3">10.792216</data>
+  <data key="d4">10.792216</data>
+  <data key="d5">106.706729</data>
+  <data key="d6">HX_20</data>
+  <data key="d7">Xô Viết Nghệ Tĩnh</data>
+  <data key="d8">1117.4</data>
+</node>
+<edge source="1" target="2" id="0">
+  <data key="d9">Điện Biên Phủ</data>
+  <data key="d10">primary</data>
+  <data key="d11">5</data>
+  <data key="d12">204.86</data>
+  <data key="d13">True</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="1" target="3" id="0">
+  <data key="d9">Điện Biên Phủ</data>
+  <data key="d10">primary</data>
+  <data key="d11">6</data>
+  <data key="d12">238.66</data>
+  <data key="d13">True</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="1" target="4" id="0">
+  <data key="d9">Bạch Đằng</data>
+  <data key="d10">primary</data>
+  <data key="d11">3</data>
+  <data key="d12">358.33</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="1" target="5" id="0">
+  <data key="d9">Xô Viết Nghệ Tĩnh</data>
+  <data key="d10">primary</data>
+  <data key="d11">2</data>
+  <data key="d12">432.29</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="1" target="11" id="0">
+  <data key="d9">Cầu Sơn / Xô Viết Nghệ Tĩnh</data>
+  <data key="d10">primary</data>
+  <data key="d11">3</data>
+  <data key="d12">577.99</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="2" target="1" id="0">
+  <data key="d9">Điện Biên Phủ</data>
+  <data key="d10">primary</data>
+  <data key="d11">4</data>
+  <data key="d12">229.88</data>
+  <data key="d13">True</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="2" target="3" id="0">
+  <data key="d9">Cầu vượt Hàng Xanh</data>
+  <data key="d10">trunk</data>
+  <data key="d11">2</data>
+  <data key="d12">506.84</data>
+  <data key="d13">True</data>
+  <data key="d14">50</data>
+</edge>
+<edge source="2" target="8" id="0">
+  <data key="d9">Điện Biên Phủ</data>
+  <data key="d10">trunk</data>
+  <data key="d11">4</data>
+  <data key="d12">312.33</data>
+  <data key="d13">True</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="3" target="1" id="0">
+  <data key="d9">Điện Biên Phủ</data>
+  <data key="d10">primary</data>
+  <data key="d11">6</data>
+  <data key="d12">242.43</data>
+  <data key="d13">True</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="3" target="2" id="0">
+  <data key="d9">Cầu vượt Hàng Xanh</data>
+  <data key="d10">trunk</data>
+  <data key="d11">2</data>
+  <data key="d12">487.2</data>
+  <data key="d13">True</data>
+  <data key="d14">50</data>
+</edge>
+<edge source="3" target="16" id="0">
+  <data key="d9">Điện Biên Phủ</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3</data>
+  <data key="d12">704.41</data>
+  <data key="d13">True</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="4" target="1" id="0">
+  <data key="d9">Bạch Đằng</data>
+  <data key="d10">primary</data>
+  <data key="d11">3</data>
+  <data key="d12">358.57</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="4" target="3" id="0">
+  <data key="d9">Đinh Bộ Lĩnh</data>
+  <data key="d10">primary</data>
+  <data key="d11">4</data>
+  <data key="d12">201.51</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="4" target="6" id="0">
+  <data key="d9">Bạch Đằng</data>
+  <data key="d10">primary</data>
+  <data key="d11">3</data>
+  <data key="d12">113.98</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="5" target="1" id="0">
+  <data key="d9">Xô Viết Nghệ Tĩnh</data>
+  <data key="d10">primary</data>
+  <data key="d11">2</data>
+  <data key="d12">433.0</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="5" target="12" id="0">
+  <data key="d9">Xô Viết Nghệ Tĩnh</data>
+  <data key="d10">primary</data>
+  <data key="d11">2</data>
+  <data key="d12">304.39</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="6" target="4" id="0">
+  <data key="d9">Bạch Đằng</data>
+  <data key="d10">primary</data>
+  <data key="d11">3</data>
+  <data key="d12">114.17</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="6" target="13" id="0">
+  <data key="d9">Bạch Đằng</data>
+  <data key="d10">primary</data>
+  <data key="d11">3</data>
+  <data key="d12">404.66</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="7" target="2" id="0">
+  <data key="d9">Điện Biên Phủ</data>
+  <data key="d10">trunk</data>
+  <data key="d11">4</data>
+  <data key="d12">214.7</data>
+  <data key="d13">True</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="7" target="10" id="0">
+  <data key="d9">Nguyễn Gia Trí</data>
+  <data key="d10">tertiary</data>
+  <data key="d11">2</data>
+  <data key="d12">378.6</data>
+  <data key="d13">False</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="8" target="7" id="0">
+  <data key="d9">Điện Biên Phủ</data>
+  <data key="d10">trunk</data>
+  <data key="d11">4</data>
+  <data key="d12">81.64</data>
+  <data key="d13">True</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="8" target="9" id="0">
+  <data key="d9">Điện Biên Phủ / Cầu Văn Thánh 1</data>
+  <data key="d10">trunk</data>
+  <data key="d11">4</data>
+  <data key="d12">119.18</data>
+  <data key="d13">True</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="9" target="8" id="0">
+  <data key="d9">Điện Biên Phủ / Cầu Văn Thánh 1</data>
+  <data key="d10">trunk</data>
+  <data key="d11">4</data>
+  <data key="d12">121.25</data>
+  <data key="d13">True</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="9" target="19" id="0">
+  <data key="d9">Điện Biên Phủ</data>
+  <data key="d10">trunk</data>
+  <data key="d11">4</data>
+  <data key="d12">405.5</data>
+  <data key="d13">True</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="10" target="7" id="0">
+  <data key="d9">Nguyễn Gia Trí</data>
+  <data key="d10">tertiary</data>
+  <data key="d11">2</data>
+  <data key="d12">378.6</data>
+  <data key="d13">False</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="10" target="15" id="0">
+  <data key="d9">Nguyễn Gia Trí</data>
+  <data key="d10">tertiary</data>
+  <data key="d11">2</data>
+  <data key="d12">370.31</data>
+  <data key="d13">False</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="11" target="18" id="0">
+  <data key="d9">Xô Viết Nghệ Tĩnh</data>
+  <data key="d10">primary</data>
+  <data key="d11">3</data>
+  <data key="d12">314.1</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="12" target="5" id="0">
+  <data key="d9">Xô Viết Nghệ Tĩnh</data>
+  <data key="d10">primary</data>
+  <data key="d11">2</data>
+  <data key="d12">309.15</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="12" target="17" id="0">
+  <data key="d9">Xô Viết Nghệ Tĩnh</data>
+  <data key="d10">primary</data>
+  <data key="d11">2</data>
+  <data key="d12">311.99</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="13" target="6" id="0">
+  <data key="d9">Bạch Đằng</data>
+  <data key="d10">primary</data>
+  <data key="d11">3</data>
+  <data key="d12">404.8</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="14" target="4" id="0">
+  <data key="d9">Đinh Bộ Lĩnh / Cầu Đinh Bộ Lĩnh</data>
+  <data key="d10">primary</data>
+  <data key="d11">4</data>
+  <data key="d12">594.79</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="15" target="10" id="0">
+  <data key="d9">Nguyễn Gia Trí</data>
+  <data key="d10">tertiary</data>
+  <data key="d11">2</data>
+  <data key="d12">370.59</data>
+  <data key="d13">True</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="16" target="3" id="0">
+  <data key="d9">Điện Biên Phủ</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3</data>
+  <data key="d12">725.01</data>
+  <data key="d13">True</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="17" target="12" id="0">
+  <data key="d9">Xô Viết Nghệ Tĩnh</data>
+  <data key="d10">primary</data>
+  <data key="d11">2</data>
+  <data key="d12">313.02</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="17" target="20" id="0">
+  <data key="d9">Xô Viết Nghệ Tĩnh</data>
+  <data key="d10">primary</data>
+  <data key="d11">2</data>
+  <data key="d12">200.51</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="18" target="15" id="0">
+  <data key="d9">Ung Văn Khiêm</data>
+  <data key="d10">secondary</data>
+  <data key="d11">2</data>
+  <data key="d12">491.21</data>
+  <data key="d13">True</data>
+  <data key="d14">60</data>
+</edge>
+<edge source="19" target="9" id="0">
+  <data key="d9">Điện Biên Phủ</data>
+  <data key="d10">trunk</data>
+  <data key="d11">4</data>
+  <data key="d12">376.26</data>
+  <data key="d13">True</data>
+  <data key="d14">60</data>
+</edge>
+</graph></graphml>

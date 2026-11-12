@@ -1,0 +1,38 @@
+﻿edge_id,u,v,u_code,v_code,name,highway,lanes,length,oneway,bidirectional_pair,maxspeed
+E_01,1,2,HX_01,HX_02,Điện Biên Phủ,primary,5,204.86,True,True,60
+E_02,1,3,HX_01,HX_03,Điện Biên Phủ,primary,6,238.66,True,True,60
+E_03,1,4,HX_01,HX_04,Bạch Đằng,primary,3,358.33,True,True,60
+E_04,1,5,HX_01,HX_05,Xô Viết Nghệ Tĩnh,primary,2,432.29,True,True,60
+E_05,1,11,HX_01,HX_11,Cầu Sơn / Xô Viết Nghệ Tĩnh,primary,3,577.99,True,False,60
+E_06,2,1,HX_02,HX_01,Điện Biên Phủ,primary,4,229.88,True,True,60
+E_07,2,3,HX_02,HX_03,Cầu vượt Hàng Xanh,trunk,2,506.84,True,True,50
+E_08,2,8,HX_02,HX_08,Điện Biên Phủ,trunk,4,312.33,True,False,60
+E_09,3,1,HX_03,HX_01,Điện Biên Phủ,primary,6,242.43,True,True,60
+E_10,3,2,HX_03,HX_02,Cầu vượt Hàng Xanh,trunk,2,487.2,True,True,50
+E_11,3,16,HX_03,HX_16,Điện Biên Phủ,trunk,3,704.41,True,True,60
+E_12,4,1,HX_04,HX_01,Bạch Đằng,primary,3,358.57,True,True,60
+E_13,4,3,HX_04,HX_03,Đinh Bộ Lĩnh,primary,4,201.51,True,False,60
+E_14,4,6,HX_04,HX_06,Bạch Đằng,primary,3,113.98,True,True,60
+E_15,5,1,HX_05,HX_01,Xô Viết Nghệ Tĩnh,primary,2,433.0,True,True,60
+E_16,5,12,HX_05,HX_12,Xô Viết Nghệ Tĩnh,primary,2,304.39,True,True,60
+E_17,6,4,HX_06,HX_04,Bạch Đằng,primary,3,114.17,True,True,60
+E_18,6,13,HX_06,HX_13,Bạch Đằng,primary,3,404.66,True,True,60
+E_19,7,2,HX_07,HX_02,Điện Biên Phủ,trunk,4,214.7,True,False,60
+E_20,7,10,HX_07,HX_10,Nguyễn Gia Trí,tertiary,2,378.6,False,True,60
+E_21,8,7,HX_08,HX_07,Điện Biên Phủ,trunk,4,81.64,True,False,60
+E_22,8,9,HX_08,HX_09,Điện Biên Phủ / Cầu Văn Thánh 1,trunk,4,119.18,True,True,60
+E_23,9,8,HX_09,HX_08,Điện Biên Phủ / Cầu Văn Thánh 1,trunk,4,121.25,True,True,60
+E_24,9,19,HX_09,HX_19,Điện Biên Phủ,trunk,4,405.5,True,True,60
+E_25,10,7,HX_10,HX_07,Nguyễn Gia Trí,tertiary,2,378.6,False,True,60
+E_26,10,15,HX_10,HX_15,Nguyễn Gia Trí,tertiary,2,370.31,False,True,60
+E_27,11,18,HX_11,HX_18,Xô Viết Nghệ Tĩnh,primary,3,314.1,True,False,60
+E_28,12,5,HX_12,HX_05,Xô Viết Nghệ Tĩnh,primary,2,309.15,True,True,60
+E_29,12,17,HX_12,HX_17,Xô Viết Nghệ Tĩnh,primary,2,311.99,True,True,60
+E_30,13,6,HX_13,HX_06,Bạch Đằng,primary,3,404.8,True,True,60
+E_31,14,4,HX_14,HX_04,Đinh Bộ Lĩnh / Cầu Đinh Bộ Lĩnh,primary,4,594.79,True,False,60
+E_32,15,10,HX_15,HX_10,Nguyễn Gia Trí,tertiary,2,370.59,True,True,60
+E_33,16,3,HX_16,HX_03,Điện Biên Phủ,trunk,3,725.01,True,True,60
+E_34,17,12,HX_17,HX_12,Xô Viết Nghệ Tĩnh,primary,2,313.02,True,True,60
+E_35,17,20,HX_17,HX_20,Xô Viết Nghệ Tĩnh,primary,2,200.51,True,False,60
+E_36,18,15,HX_18,HX_15,Ung Văn Khiêm,secondary,2,491.21,True,False,60
+E_37,19,9,HX_19,HX_09,Điện Biên Phủ,trunk,4,376.26,True,True,60
