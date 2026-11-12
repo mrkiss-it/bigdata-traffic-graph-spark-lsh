@@ -15,12 +15,16 @@ __pycache__/
 *$py.class
 .venv/
 venv/
+.env
 .ipynb_checkpoints/
 
 # Big Data raw & intermediate storage (keep light samples/schemas only)
-data/raw/
-data/interim/
-data/external/
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/external/*
+!data/external/.gitkeep
 *.parquet
 *.h5
 *.hdf5
