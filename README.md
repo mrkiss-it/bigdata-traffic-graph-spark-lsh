@@ -40,10 +40,10 @@ Toàn bộ biểu mẫu tuân thủ chuẩn văn bản CITD/UIT và đáp ứng 
 | Thư mục | Mục đích & Các thành phần chính |
 | :--- | :--- |
 | `01_data_ingestion/` | Thu thập dữ liệu giao thông thô, trích xuất cấu trúc đồ thị mạng lưới đường Hàng Xanh (`20` nút giao, `37` cạnh) và cào dữ liệu thời tiết Open-Meteo. |
-| `02_pyspark_gigo/` | Pipeline tiền xử lý PySpark, kiểm tra môi trường (`spark_env_check.py`), Data Contract lưu trữ cột Parquet phân vùng tháng theo chuẩn Snappy. |
-| `03_benchmarks_similarity/` | Khung đo kiểm tài nguyên `benchmark_profiler.py`, smoke-test và benchmark mở rộng $1\text{M} \to 17\text{M}$ dòng (`benchmark_scaling_pandas_vs_spark.py`) kèm biểu đồ đối chứng Pandas vs. PySpark. |
+| `02_pyspark_gigo/` | Pipeline tiền xử lý PySpark, kiểm tra môi trường (`spark_env_check.py`), Data Contract lưu trữ cột Parquet phân vùng tháng theo chuẩn Snappy, cấu hình Spark tinh chỉnh cho lát cắt $1\text{M} \to 17\text{M}$ dòng (`spark_tuning.py`, `[K4]`). |
+| `03_benchmarks_similarity/` | Khung đo kiểm tài nguyên `benchmark_profiler.py`, benchmark Pandas vs. PySpark $1\text{M} \to 17\text{M}$ dòng (`benchmark_scaling_pandas_vs_spark.py`), vectorizer cửa sổ trượt & đối chứng Exact KNN vs. Spark LSH vs. FAISS HNSW (`smoke_test_lsh_faiss.py`, `[K3]`; `benchmark_knn_lsh_faiss.py`, `[K6]`). |
 | `04_hcm_dashboard/` | Trực quan hóa bản đồ GIS Folium (`build_gis_inspection_map.py`), kiểm chứng tọa độ 20 nút Hàng Xanh và 207 cảm biến METR-LA. |
-| `05_report_slides/` | Bản thảo học thuật Mở đầu & Chương 1, chuyên đề đồ thị không gian $G=(V, E, W)$, biên bản họp GVHD và tài liệu khảo sát 5 công trình IEEE/ACM. |
+| `05_report_slides/` | Bản thảo học thuật Mở đầu & Chương 1, chuyên đề Chương 2 (đồ thị $G=(V, E, W)$ và kiến trúc Spark/Parquet + toán học LSH/HNSW `draft_c2_spark_lsh_math.md`, `[K5]`), biên bản họp GVHD và tài liệu khảo sát 5 công trình IEEE/ACM. |
 
 ---
 

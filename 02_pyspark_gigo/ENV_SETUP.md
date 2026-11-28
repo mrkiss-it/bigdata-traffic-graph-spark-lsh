@@ -14,7 +14,8 @@
 | setuptools | bắt buộc | Python 3.12 bỏ `distutils`; PySpark 3.5 vẫn import nó |
 | faiss-cpu | 1.16.0 | |
 
-Cấu hình Spark chuẩn dùng chung (xem `build_spark()` trong `spark_env_check.py`):
+Cấu hình Spark chuẩn dùng chung (xem `K1_CONF` và `build_spark()` trong `spark_env_check.py`; cấu hình tinh chỉnh
+cho lát cắt triệu dòng ở `spark_tuning.py`, xem [huong_dan_toi_uu_spark_va_lat_cat.md](huong_dan_toi_uu_spark_va_lat_cat.md)):
 
 ```python
 .config("spark.driver.memory", "4g")                                   # chỉnh theo RAM máy

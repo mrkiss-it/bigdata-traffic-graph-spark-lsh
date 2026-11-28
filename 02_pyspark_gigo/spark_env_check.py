@@ -117,22 +117,26 @@ def check_versions() -> str:
 # --------------------------------------------------------------------------- #
 # 2–3. Spark: Parquet + Arrow
 # --------------------------------------------------------------------------- #
-def build_spark(master: str, driver_memory: str):
+K1_CONF = {
+    "spark.sql.execution.arrow.pyspark.enabled": "true",
+    # Tắt fallback để lỗi Arrow lộ ra thay vì âm thầm quay về đường chậm.
+    "spark.sql.execution.arrow.pyspark.fallback.enabled": "false",
+    "spark.sql.parquet.compression.codec": "snappy",
+    "spark.sql.session.timeZone": "UTC",
+    "spark.sql.shuffle.partitions": "8",
+    "spark.ui.showConsoleProgress": "false",
+}
+
+
+def build_spark(master: str, driver_memory: str, conf: dict[str, str] | None = None,
+                app_name: str = "Nhom11-K1-spark_env_check"):
+    """SparkSession với cấu hình chuẩn K1_CONF; `conf` ghi đè/bổ sung (xem spark_tuning.py, [K4])."""
     from pyspark.sql import SparkSession
 
-    spark = (
-        SparkSession.builder.master(master)
-        .appName("Nhom11-K1-spark_env_check")
-        .config("spark.driver.memory", driver_memory)
-        .config("spark.sql.execution.arrow.pyspark.enabled", "true")
-        # Tắt fallback để lỗi Arrow lộ ra thay vì âm thầm quay về đường chậm.
-        .config("spark.sql.execution.arrow.pyspark.fallback.enabled", "false")
-        .config("spark.sql.parquet.compression.codec", "snappy")
-        .config("spark.sql.session.timeZone", "UTC")
-        .config("spark.sql.shuffle.partitions", "8")
-        .config("spark.ui.showConsoleProgress", "false")
-        .getOrCreate()
-    )
+    builder = SparkSession.builder.master(master).appName(app_name).config("spark.driver.memory", driver_memory)
+    for key, value in {**K1_CONF, **(conf or {})}.items():
+        builder = builder.config(key, value)
+    spark = builder.getOrCreate()
     spark.sparkContext.setLogLevel("ERROR")
     return spark
 
